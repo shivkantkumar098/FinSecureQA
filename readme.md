@@ -45,7 +45,7 @@ The following key features of the banking application are tested:
 ## 📂 Project Structure (Sample)
 ```
 Folder Structure:
-<pre>
+
 📂 FinSecure/
 ├── 📂 src/
 │   ├── 📂 main/
@@ -71,7 +71,7 @@ Folder Structure:
 ├── 📄 README.md
 └── 📄 .gitignore
 
-</pre>
+
 ```
 
 ---
