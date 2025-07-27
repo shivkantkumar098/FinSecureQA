@@ -1,18 +1,22 @@
 package org.finSecure.stepDefinitions;
 
 import io.cucumber.java.en.*;
+import io.qameta.allure.*;
 import org.finSecure.driver.Singleton.DriverManager;
 import org.finSecure.pages.LoginPage;
 import org.finSecure.constant.Credentials;
 import org.finSecure.utils.PropertyUtils;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
-
+@Epic("Login Feature")
+@Feature("Valid Login")
 public class LoginSteps {
 
     private final WebDriver driver = DriverManager.getDriver("chrome");
     private final LoginPage loginPage = new LoginPage(driver);
 
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("User logs in with valid credentials")
     @Given("I am on the login page")
     public void i_am_on_the_login_page() {
         String baseUrl = PropertyUtils.get("base.url");
