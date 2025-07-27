@@ -1,5 +1,6 @@
 package org.finSecure.driver.factory;
 
+import org.finSecure.customException.BrowserNotSupportedException;
 import org.finSecure.driver.manager.*;
 
 public class DriverFactory {
@@ -16,7 +17,8 @@ public class DriverFactory {
             case "edge":
                 return new EdgeDriverSupplier();
             default:
-                throw new IllegalArgumentException("Invalid driver type: " + driverType);
+                throw new BrowserNotSupportedException("Invalid browser type: " + driverType);
+
         }
     }
 }
