@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 
 public class ScreenshotUtils {
-
+// This file is part of the FinSecure project.
     public static void takeScreenshot(WebDriver driver, String fileName) {
         try {
             TakesScreenshot ts = (TakesScreenshot) driver;

@@ -2,7 +2,7 @@ package org.finSecure.pages;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
-
+// This file is part of the FinSecure project.
 public abstract class BasePage {
     protected WebDriver driver;
 

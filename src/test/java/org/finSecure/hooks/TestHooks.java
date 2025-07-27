@@ -13,7 +13,7 @@ public class TestHooks {
 
     @Before
     public void setUp(Scenario scenario) {
-        String browser = System.getProperty("browser", "chrome"); // default to chrome
+        String browser = System.getProperty("browser", "chrome");
         DriverManager.getDriver(browser);
         System.out.println("Starting Scenario: " + scenario.getName());
     }

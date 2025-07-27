@@ -3,7 +3,6 @@ package org.finSecure.stepDefinitions;
 import io.cucumber.java.en.*;
 import org.finSecure.driver.Singleton.DriverManager;
 import org.finSecure.pages.LoginPage;
-//import org.finSecure.utils.DriverManager;
 import org.finSecure.constant.Credentials;
 import org.finSecure.utils.PropertyUtils;
 import org.openqa.selenium.WebDriver;

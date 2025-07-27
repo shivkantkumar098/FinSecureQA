@@ -2,6 +2,7 @@ package org.finSecure.driver.factory;
 
 import org.finSecure.customException.BrowserNotSupportedException;
 import org.finSecure.driver.manager.*;
+// This file is part of the FinSecure project.
 
 public class DriverFactory {
     // Using Factory pattern to return appropriate Browser supplier

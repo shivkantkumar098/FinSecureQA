@@ -4,7 +4,7 @@ import org.finSecure.driver.factory.DriverFactory;
 import org.finSecure.driver.manager.Browser;
 import org.openqa.selenium.WebDriver;
 
-
+// This file is part of the FinSecure project.
 public class DriverManager {
 
         private static WebDriver driver;

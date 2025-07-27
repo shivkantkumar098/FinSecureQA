@@ -1,3 +1,4 @@
+#This file contains the feature definition for the login functionality
 Feature: Login functionality
 
   Scenario: Successful login with valid credentials

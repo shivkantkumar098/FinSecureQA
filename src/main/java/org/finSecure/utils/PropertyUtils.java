@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class PropertyUtils {
+// This file is part of the FinSecure project.
     private static final Properties props = new Properties();
 
     static {
